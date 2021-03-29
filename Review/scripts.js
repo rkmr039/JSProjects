@@ -71,7 +71,7 @@ const reviews = [
       loadReviews();
   });
   nextBtn.addEventListener('click', function() {
-    if(currentItem !== reviews.length) currentItem++;
+    if(currentItem !== reviews.length - 1) currentItem++;
     else currentItem = 0;
     loadReviews();
   });
